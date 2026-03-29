@@ -1,27 +1,26 @@
 export const studies = [
   {
-    title: "B.S. in Computer Science",
-    institution: "State University",
+    title: "Post Graduate Diploma in Data Science",
+    institution: "International Institute of Information Technology Bangalore (IIIT-B)",
     description:
-      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
+      "Intensive program covering statistical modeling, machine learning, data wrangling, and business analytics. Graduated with a GPA of 3.56/4 (2018–2019).",
     tags: [
-      "Algorithms",
-      "Data Structures",
-      "Operating Systems",
-      "Databases",
-      "Networking",
+      "Machine Learning",
+      "Statistics",
+      "Python",
+      "Data Wrangling",
+      "Business Analytics",
     ],
   },
   {
-    title: "M.S. in Software Engineering",
-    institution: "Tech Institute",
+    title: "B.E. in Mechanical Engineering",
+    institution: "RNS Institute of Technology, Bangalore",
     description:
-      "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
+      "Strong foundation in engineering principles, mathematics, and analytical problem-solving. Graduated with 67.17% (2012–2016).",
     tags: [
-      "Distributed Systems",
-      "Cloud Architecture",
-      "Testing",
-      "Microservices",
+      "Engineering Mathematics",
+      "Analytical Thinking",
+      "Problem Solving",
     ],
   },
 ];

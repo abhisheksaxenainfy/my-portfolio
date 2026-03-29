@@ -1,58 +1,58 @@
-import PhoenixIcon from '../assets/logos/Phoenix-logo.svg?raw';
-import N8nIcon from '../assets/logos/N8n-logo.svg?raw';
-import SupabaseIcon from '../assets/logos/Supabase-logo.svg?raw';
+import MixpanelIcon from '../assets/logos/Mixpanel-logo.svg?raw';
+import MetabaseIcon from '../assets/logos/Metabase-logo.svg?raw';
 import PosthogIcon from '../assets/logos/posthog-logo.svg?raw';
 import PythonIcon from '../assets/logos/Python-logo.svg?raw';
-import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
+import SQLIcon from '../assets/logos/SQL-logo.svg?raw';
+import GoogleAnalyticsIcon from '../assets/logos/GoogleAnalytics-logo.svg?raw';
 
 
 export const projects = [
 	{
-		title: "Workflow Automation Orchestrator (n8n)",
-		techStack: "n8n • Node.js • TypeScript • PostgreSQL",
-		description: "Event‑driven workflows for data sync, notifications, and back‑office automation. Custom nodes, secrets management, retries, and metrics.",
-		ctaText: "View Repo →",
+		title: "Bundles Content Format — Glance Digital",
+		techStack: "A/B Testing • BigQuery • Looker Studio • Figma",
+		description: "Launched Bundles — a new content format grouping related articles/videos — increasing session depth by 22% and swipe sessions by 8%, improving content continuity and time spent.",
+		ctaText: "Case Study →",
 		ctaLink: "#",
-		icon: N8nIcon
+		icon: MixpanelIcon
 	},
 	{
-		title: "SaaS API Starter (Auth, Billing, RBAC)",
-		techStack: "Node.js • TypeScript • PostgreSQL • Supabase • Stripe",
-		description: "Production‑ready REST/GraphQL API with JWT auth, role‑based access, Stripe subscriptions, and rate‑limited endpoints.",
-		ctaText: "Get Source < / >",
+		title: "Quiz Time Monetization — Glance Digital",
+		techStack: "A/B Testing • SQL • Periscope • Behavioral Analytics",
+		description: "Launched Quiz Time value proposition driving 2× revenue per Mn impressions and +59% eCPM uplift. Reduced ad requests/CTA by 32%, delivering better monetization efficiency.",
+		ctaText: "Case Study →",
 		ctaLink: "#",
-		icon: SupabaseIcon
+		icon: GoogleAnalyticsIcon
 	},
 	{
-		title: "Realtime Chat Service",
-		techStack: "Phoenix • WebSockets • Redis • Docker",
-		description: "Low‑latency chat with channels, presence, and backpressure handling. Includes load tests and horizontal scaling notes.",
-		ctaText: "Live Demo →",
-		ctaLink: "#",
-		icon: PhoenixIcon
-	},
-	{
-		title: "Product Analytics Pipeline",
-		techStack: "Node.js • PostHog • PostgreSQL • ClickHouse",
-		description: "Event ingestion, batching, and replay; user properties and cohorts; dashboards for funnels, retention, and feature adoption.",
-		ctaText: "Read Case Study →",
+		title: "Gari Quest Feature Revamp — Chingari",
+		techStack: "SQL • Python • Dashboard Automation • Web3",
+		description: "Owned end‑to‑end revamp of the Gari Quest feature, delivering the correct value proposition to users. Achieved 3.5× revenue impact within a month of implementation.",
+		ctaText: "Case Study →",
 		ctaLink: "#",
 		icon: PosthogIcon
 	},
 	{
-		title: "Data Ingestion & ETL",
-		techStack: "Python • Airflow • PostgreSQL • S3",
-		description: "Scheduled extract/transform/load with schema migrations, data quality checks, and partitioned tables for analytics.",
-		ctaText: "View Repo →",
+		title: "User Transition Funnel Optimization — Glance Digital",
+		techStack: "Cohort Analysis • SQL • BigQuery • TOFU Funnel",
+		description: "Improved LEU→MEU user transition rate by 3% through cohort analysis and TOFU funnel optimization, enabling targeted high‑impact content delivery to the right user segments.",
+		ctaText: "Case Study →",
 		ctaLink: "#",
-		icon: PythonIcon
+		icon: SQLIcon
 	},
 	{
-		title: "Design System",
-		techStack: "React • TypeScript • Tailwind CSS • Storybook",
-		description: "Accessible UI kit with tokens, theming, and testing. Published as a versioned package with changelogs and docs.",
-		ctaText: "Docs →",
+		title: "Shipment BI Dashboards — Shadowfax",
+		techStack: "SQL • BI Dashboards • Python • Process Automation",
+		description: "Decreased debit percentage from 12% to 7% via node‑level alert mechanisms. Reduced last‑mile partner costs per order from ₹18.5 to ₹17.3 through data‑driven partner optimization.",
+		ctaText: "Case Study →",
 		ctaLink: "#",
-		icon: TailwindIcon
+		icon: MetabaseIcon
+	},
+	{
+		title: "A/B Testing Analytics — Gameberry Labs",
+		techStack: "SQL • Python • Retention Analysis • Behavioral Analytics",
+		description: "Built a comprehensive analytics layer around A/B tests for a 2.5Mn+ DAU gaming platform with $25Mn ARR, driving data‑informed feature decisions on player behavior and monetization.",
+		ctaText: "Case Study →",
+		ctaLink: "#",
+		icon: PythonIcon
 	},
 ];

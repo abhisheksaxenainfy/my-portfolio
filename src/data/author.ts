@@ -1,9 +1,9 @@
 import avatar from '../assets/images/sample-avatar.jpg';
 
 export const author = {
-  name: 'Site Author',
+  name: 'Abhishek Saxena',
   avatar,
-  url: '#',
+  url: 'https://abhisheksaxena.in',
 };
 
 export type Author = typeof author;

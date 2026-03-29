@@ -1,33 +1,33 @@
 export const skills = [
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>`,
-    title: "System Design & Architecture",
-    description: "Designing scalable, resilient services, clear boundaries, and data models; pragmatic trade‑offs documented via ADRs/RFCs.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>`,
+    title: "Product Management",
+    description: "PRD writing, feature prioritization (RICE, MoSCoW), product roadmapping, competitive analysis, stakeholder management, Agile/Scrum, and sprint planning.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 17l-5-5 5-5v3l-2 2 2 2v3zm8-10l5 5-5 5v-3l2-2-2-2V7z"/></svg>`,
-    title: "Full‑Stack Development",
-    description: "End‑to‑end features with React/Next.js, Node.js, and TypeScript, with strong UX, accessibility, and performance.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>`,
+    title: "Experimentation & Growth",
+    description: "A/B testing & experiment design, hypothesis validation, cohort & funnel analysis, retention & engagement metrics, and growth hacking strategies.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a3 3 0 110 6 3 3 0 010-6zm0 6v6m0 0a3 3 0 100 6 3 3 0 000-6zm0 0a3 3 0 10-6 0 3 3 0 006 0zm6 0a3 3 0 11-6 0 3 3 0 016 0z"/></svg>`,
-    title: "APIs & Distributed Systems",
-    description: "Designing REST/GraphQL APIs, background jobs, queues, idempotency, retries, and observability for reliability.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/></svg>`,
+    title: "Data & Analytics",
+    description: "Advanced SQL (BigQuery, PostgreSQL), data modeling, dashboarding (Looker Studio, Periscope, Metabase), KPI tracking, and behavioral analytics.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C7 3 4 4.79 4 7v10c0 2.21 3 4 8 4s8-1.79 8-4V7c0-2.21-3-4-8-4zm0 2c3.87 0 6 .93 6 2s-2.13 2-6 2-6-.93-6-2 2.13-2 6-2zm0 6c3.87 0 6 .93 6 2s-2.13 2-6 2-6-.93-6-2 2.13-2 6-2z"/></svg>`,
-    title: "Databases & Caching",
-    description: "Schema design, migrations, and performance tuning with Postgres; caching and rate‑limiting with Redis.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>`,
+    title: "User Experience & Design",
+    description: "Wireframing & prototyping in Figma, user journey mapping, UX research & feedback integration to build user‑centric product experiences.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm-1 15l-4-4 1.41-1.41L11 14.17l6.59-6.59L19 9l-8 8z"/></svg>`,
-    title: "Testing & CI/CD",
-    description: "Unit, integration, and E2E tests (Jest, Playwright) with GitHub Actions pipelines, preview envs, and quality gates.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>`,
+    title: "Programming for Analysis",
+    description: "Python (Pandas, NumPy) for exploratory data analysis and quick prototyping. SQL expertise across BigQuery and PostgreSQL for deep product analytics.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 18H6a4 4 0 010-8 5 5 0 019.9-1.5A4.5 4.5 0 1119 18z"/></svg>`,
-    title: "Cloud & DevOps",
-    description: "AWS, Docker, and Terraform; secure deployments, monitoring/alerts, and cost‑aware operations.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>`,
+    title: "Cross-functional Collaboration",
+    description: "Leading cross-functional teams across product, engineering, design, and marketing. JIRA, Confluence, stakeholder communication, and agile execution.",
   },
 ];
 
