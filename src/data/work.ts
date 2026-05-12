@@ -11,21 +11,51 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Associate Product Manager | Senior Product Analyst",
+    title: "Product Manager",
     company: "Glance Digital Pvt. Ltd.",
-    period: "Aug 2023 – Present",
+    period: "Jan 2026 – Present",
     region: "Bangalore, India",
     description:
-      "Launched Bundles content format increasing session depth by 22% and swipe sessions by 8%. Drove 2× revenue per Mn impressions and +59% eCPM uplift via Quiz Time value prop. Boosted engagement through UI experiments yielding 8× fast card entries, +50% session depth, and 47% fewer dormant users. Improved LEU→MEU user transition by 3% via cohort analysis and TOFU funnel optimization.",
+      "Owns the News & Bundles product area end-to-end. Shipped the Value Prop Landing Page (swiping sessions 7%→23.4%, click rate 6%→19%), Bundle Explore Page V2 (+9% landing rate, +12% cards per session), and Full-Screen Immersive Video (~30K DAU, +33% cards per session). Defines scope, runs experiments, evaluates outcomes.",
+    technologies: [
+      "A/B Testing",
+      "BigQuery",
+      "Figma",
+      "SQL",
+      "Agile",
+      "JIRA",
+      "Experimentation",
+      "AI Tools",
+    ],
+  },
+  {
+    title: "Associate Product Manager",
+    company: "Glance Digital Pvt. Ltd.",
+    period: "Jan 2025 – Dec 2025",
+    region: "Bangalore, India",
+    description:
+      "Launched Bundles content format (+4% session depth); introduced Video Cards (+55% cards per session, 2.2→3.4 peak); drove Quiz Time to +122.5% CTR and +171% revenue per Mn impressions. Owned ambiguous problem spaces with full end-to-end accountability.",
+    technologies: [
+      "A/B Testing",
+      "BigQuery",
+      "SQL",
+      "Figma",
+      "Experimentation",
+    ],
+  },
+  {
+    title: "Senior Product Analyst",
+    company: "Glance Digital Pvt. Ltd.",
+    period: "Aug 2023 – Dec 2024",
+    region: "Bangalore, India",
+    description:
+      "Built product dashboards (Fast Card V1 funnel, Novo Master, SHP 3P), wrote instrumentation requirements, and ran TOFU War Room cohort analysis to improve LEU→MEU user transition. Operated as a de facto APM — defining metrics, QA-ing instrumentation, and running SQL at scale.",
     technologies: [
       "SQL",
       "BigQuery",
       "Looker Studio",
-      "A/B Testing",
       "Cohort Analysis",
-      "Figma",
-      "JIRA",
-      "Agile",
+      "Instrumentation",
     ],
   },
   {

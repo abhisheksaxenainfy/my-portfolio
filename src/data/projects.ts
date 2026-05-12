@@ -8,17 +8,41 @@ import GoogleAnalyticsIcon from '../assets/logos/GoogleAnalytics-logo.svg?raw';
 
 export const projects = [
 	{
-		title: "Bundles Content Format — Glance Digital",
-		techStack: "A/B Testing • BigQuery • Looker Studio • Figma",
-		description: "Launched Bundles — a new content format grouping related articles/videos — increasing session depth by 22% and swipe sessions by 8%, improving content continuity and time spent.",
+		title: "Value Prop Landing Page — Glance News Tab",
+		techStack: "Product Design • API Integration • A/B Testing • Figma",
+		description: "Designed a unified discovery hub for India's News tab surfacing Bundles, Video Binge, People in Focus, and Fast Cards. Swiping sessions jumped from 7% → 23.4% (+17pp) and click rate from 6% → 19% (+13pp) by simplifying entry points to already-existing content.",
 		ctaText: "Case Study →",
 		ctaLink: "#",
 		icon: MixpanelIcon
 	},
 	{
+		title: "Bundle Explore Page V2 — Personalized Discovery",
+		techStack: "Personalization • A/B Testing • BigQuery • Figma",
+		description: "Redesigned the Bundle explore surface with Trending, Curated Just for You, Bundle Preview, and Explore More sections. Achieved +9% landing rate vs V1, +10% sessions scrolling beyond first fold, +12% cards per session; curated section drove 46% of all clicks.",
+		ctaText: "Case Study →",
+		ctaLink: "#",
+		icon: GoogleAnalyticsIcon
+	},
+	{
+		title: "Video Card Launch — Reducing Cognitive Load",
+		techStack: "Content Format • Matching Logic • A/B Testing • Engagement Analytics",
+		description: "Introduced video cards within Bundle feeds using existing content-matching logic to reduce text-heavy cognitive load. Cards per session increased ~55% (2.2 → 3.4 peak) with overall engagement up despite a slight article CTR dip — validated total engagement over single-metric optimization.",
+		ctaText: "Case Study →",
+		ctaLink: "#",
+		icon: SQLIcon
+	},
+	{
+		title: "Bundles Content Format — Glance Digital",
+		techStack: "A/B Testing • BigQuery • Looker Studio • Figma",
+		description: "Defined Bundles as a user-intent–led, multi-format content unit to solve weak session continuity (~2 pieces/session). Drove 8 shipped experiments across format, discoverability, and video — delivering +4% session depth, +16% swiping sessions, and +17% cards per session.",
+		ctaText: "Case Study →",
+		ctaLink: "#",
+		icon: MetabaseIcon
+	},
+	{
 		title: "Quiz Time Monetization — Glance Digital",
 		techStack: "A/B Testing • SQL • Periscope • Behavioral Analytics",
-		description: "Launched Quiz Time value proposition driving 2× revenue per Mn impressions and +59% eCPM uplift. Reduced ad requests/CTA by 32%, delivering better monetization efficiency.",
+		description: "Launched Quiz Time value proposition driving +122.5% CTR vs SHP, +171% revenue per Mn impressions, and +59% eCPM. Reduced ad requests/CTA by 32%. Identified automation gap as the scaling constraint and made the informed call to deprioritize.",
 		ctaText: "Case Study →",
 		ctaLink: "#",
 		icon: GoogleAnalyticsIcon
@@ -54,5 +78,13 @@ export const projects = [
 		ctaText: "Case Study →",
 		ctaLink: "#",
 		icon: PythonIcon
+	},
+	{
+		title: "This Portfolio — Built with Claude Code",
+		techStack: "Astro • Claude Code • Tailwind CSS • GitHub",
+		description: "Designed and shipped this portfolio site using Claude Code as a development co-pilot. Used AI to scaffold components, write and debug Astro/TypeScript, and iterate on UI — compressing weeks of dev work into days. A practical example of using AI as a builder's multiplier.",
+		ctaText: "View Source →",
+		ctaLink: "https://github.com/abhisheksaxenainfy/my-portfolio",
+		icon: MixpanelIcon
 	},
 ];
